@@ -1,0 +1,119 @@
+body {
+		font-family: arial, sans-serif;
+		font-size: 13px;
+		color: #545454;
+		margin: 0px;
+	}
+	
+	input.text {
+	text-align:left;
+	height: 28px;
+    padding: 5px 10px 5px 10px;
+    border:1px solid #999;
+    font-size:16px;
+    font-family: Tahoma;
+	width:535px;
+	}
+	
+	input.text1 {
+	text-align:left;
+	height: 28px;
+    padding: 5px 10px 5px 10px;
+    border:1px solid #999;
+    font-size:16px;
+    font-family: Tahoma;
+	width:600px;
+	}
+	
+	div.think{
+		color:#777;
+		font-size:16px;
+		font-weight:bold;
+		margin-left:37%;
+		margin-top:10px;
+		margin-bottom:10px;
+	}
+	
+	div.thinksmall{
+		color:#777;
+		font-size:14px;
+		margin-left:37%;
+		margin-top:10px;
+		margin-bottom:10px;
+	}
+	input.index {
+	text-align:left;
+	height: 28px;
+    padding: 5px 10px 5px 10px;
+    border:1px solid #999;
+    font-size:16px;
+    font-family: Tahoma;
+	width:60px;
+	}
+	
+	div.top {
+	height: 35%;
+	display:block;
+	position: relative;
+	}
+	
+	div.main {
+	display:block;
+	position: relative;
+	width:100%;
+
+	}
+	
+	div.logo {
+	background:url(../images/nav1.png);
+	background-repeat:no-repeat;
+	background-position:40px -750px;
+	background-size:334px;
+	width:400px;
+   	height:70px;
+	display: block;
+	margin-left:27%;
+    }
+	
+	div.search{
+	position: relative;
+	display: block;
+	margin-top: 20px;
+	width:600px;
+	}
+
+.button1 {
+	position: relative;
+	top: 0px;
+	left: 42%;
+	text-align: center;
+	font-weight: bold;
+	background-color: rgb(77, 144, 254);
+	background-image: -webkit-linear-gradient(top, rgb(77, 144, 254),
+		rgb(71, 135, 237));
+	border-color: rgb(48, 121, 237);
+	border-radius: 2px;
+	border-style: solid;
+	border-width: 1px;
+	color: rgb(255, 255, 255);
+	height: 28px;
+	cursor: pointer;
+}
+		
+
+	.error {
+		display:block;
+		color: #d9432f;
+		font-size: 12px;
+		margin-right:64px;	
+	}
+	
+	#centered{
+    width:600px;
+    height:300px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin:-150px 0 0 -300px;    
+   
+   }

@@ -1,0 +1,88 @@
+	body {
+		font-family: arial, sans-serif;
+		font-size: 13px;
+		color: #545454;
+		margin: 0px;
+	}
+	
+	input.text {
+	text-align:left;
+	height: 28px;
+    padding: 5px 10px 5px 10px;
+    border:1px solid #999;
+    font-size:16px;
+    font-family: Tahoma;
+	width:400px;
+	display: inline-block;
+	}
+
+	div.top {
+	height: 35%;
+	display:block;
+	position: relative;
+	}
+	
+	div.main {
+	display:block;
+	position: relative;
+	width:100%;
+
+	}
+	
+	div.logo {
+	background:url(../images/nav1.png);
+	background-repeat:no-repeat;
+	background-position:40px -750px;
+	background-size:334px;
+	position: relative;
+    left: 40%;
+	width:300px;
+   	height:70px;
+	display: block;
+    }
+	
+	div.search{
+	position: relative;
+	left:32%;
+	display: block;
+	margin-top: 20px;
+	width:500px;
+	}
+
+
+.button1 {
+	position: relative;
+	top: 9px;
+	text-align: center;
+	font-weight: bold;
+	background-color: rgb(77, 144, 254);
+	background-image: -webkit-linear-gradient(top, rgb(77, 144, 254),
+		rgb(71, 135, 237));
+	border-color: rgb(48, 121, 237);
+	border-radius: 2px;
+	border-style: solid;
+	border-width: 1px;
+	color: rgb(255, 255, 255);
+	height: 28px;
+	top: 8px;
+	cursor: pointer;
+}	
+	div.line1{
+	display: inline-block;
+	margin-right:71px;
+	margin-top:5px;
+	}	
+		
+div.line2{
+	display: inline-block;
+	}		
+	
+.sbico {
+    background: url(../images/search1.png) no-repeat ;
+    color: transparent;
+    display: inline-block;
+    height: 26px;
+    width: 52px;
+    margin-right: 3px;
+}
+		

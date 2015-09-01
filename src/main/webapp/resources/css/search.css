@@ -1,0 +1,257 @@
+html, body{
+    margin:0;
+    padding:0;
+    height:100%;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	color: #545454;
+}
+div.document{
+    min-height:100%;
+    height:auto!important;
+    height:100%;
+    margin:0 auto -66px;
+	position:relative;
+}
+div.aux{
+    height:65px;
+}
+div.footer{
+    height:65px;
+    background:#563F2F;
+	background-color: rgb(242, 242, 242);
+	border-top-color: rgb(228, 228, 228);
+	border-top-style: solid;
+	border-top-width: 1px;
+	color: rgb(34, 34, 34);
+}
+
+div.top {
+	background-color: rgb(241, 241, 241);
+	border-bottom-color: rgb(229, 229, 229);
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	height: 59px;
+}
+
+div.logo {
+	background: url(../images/nav1.png);
+	background-repeat: no-repeat;
+	background-position: 20px -375px;
+	background-size: 167px;
+	width: 130px;
+	height: 50px;
+	float: left;
+}
+
+div.search {
+	position: absolute;
+	left: 130px;
+}
+
+input.text {
+	text-align: left;
+	height: 17px;
+	padding: 5px 10px 5px 10px;
+	border: 1px solid #999;
+	font-size: 16px;
+	font-family: Tahoma;
+	width: 475px;
+}
+
+.button1 {
+	position: absolute;
+	top: 0px;
+	left: 496px;
+	text-align: center;
+	font-weight: bold;
+	background-color: rgb(77, 144, 254);
+	background-image: -webkit-linear-gradient(top, rgb(77, 144, 254),
+		rgb(71, 135, 237));
+	border-color: rgb(48, 121, 237);
+	border-radius: 2px;
+	border-style: solid;
+	border-width: 1px;
+	color: rgb(255, 255, 255);
+	height: 28px;
+	cursor: pointer;
+}
+
+.button2 {
+	position: absolute;
+	top: 0px;
+	left: 572px;
+	text-align: center;
+	font-weight: bold;
+	background-color: rgb(77, 144, 254);
+	background-image: -webkit-linear-gradient(top, rgb(77, 144, 254),
+		rgb(71, 135, 237));
+	border-color: rgb(48, 121, 237);
+	border-radius: 2px;
+	border-style: solid;
+	border-width: 1px;
+	color: rgb(255, 255, 255);
+	height: 28px;
+	cursor: pointer;
+}
+
+div.header {
+	color: rgb(102, 102, 102);
+	height: 59px;
+	line-height: 54px;
+	border-bottom-color: rgb(229, 229, 229);
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+
+div.headeritem {
+	position: relative;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+div.headeritem a {
+	text-decoration: none;
+	color: #545454;
+}
+div.headeritemon {
+	position: relative;
+	display: inline-block;
+	margin-right: 20px;	text-decoration: underline;
+	font-weight: bold;
+	color: #4b8df9;
+	border-bottom-style: solid;
+	border-bottom-width: 3px;
+	border-bottom-color: #4b8df9;
+}
+
+a {
+	text-decoration: none;
+}
+
+hr {
+	border-style: none;
+	background-color: #f2f2f2;
+	height: 2px;
+	margin-top: 30px;
+}
+
+span.select {
+	background: #fffcb7;
+	font-weight: bold
+}
+span.text{
+	font-weight: bold
+}
+div.main {
+	margin-top: 20px;
+	margin-left: 130px;
+	width: 512px;
+	display: block;
+	position: relative;
+}
+
+div.mainitem {
+	margin-top: 20px;
+}
+
+a.style1 {
+	color: #1a0dab; /*синняя ссылка на странице*/
+	font-size: 18px;
+	text-decoration: none;
+}
+
+a.style1:hover {
+	text-decoration: underline;
+}
+
+div.style2 {
+	color: #006621; /*зеленый текст на странице*/
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.nav {
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	color: rgb(34, 34, 34);
+	text-align: center;
+	margin: 30px auto 30px;
+}
+
+span.page {
+	background: url(../images/nav1.png);
+	background-repeat: no-repeat;
+	background-position: -74px 0;
+	background-size: 167px;
+	width: 20px;
+	display: block;
+	height: 40px;
+}
+
+span.pagecurrent {
+	background: url(../images/nav1.png);
+	background-repeat: no-repeat;
+	background-position: -53px 0;
+	background-size: 167px;
+	width: 20px;
+	display: block;
+	height: 40px;
+}
+
+span.prev {
+	background: url(../images/nav1.png);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	background-size: 167px;
+	width: 53px;
+	display: block;
+	height: 40px;
+	float: right;
+}
+
+span.next {
+	background: url(../images/nav1.png);
+	background-repeat: no-repeat;
+	background-position: -96px 0;
+	background-size: 167px;
+	width: 71px;
+	display: block;
+	height: 40px;
+
+}
+
+td.prev1 {
+	font-weight: bold;
+	height: 55px;
+	text-align: left;
+	width: 72px;
+}
+
+td {
+	height: 55px;
+	padding: 0px;
+}
+
+td.next1 {
+	font-weight: bold;
+	height: 55px;
+	text-align: center;
+	width: 125px;
+}
+.sbico {
+    background: url(../images/search1.png) no-repeat ;
+    color: transparent;
+    display: inline-block;
+    height: 26px;
+    width: 52px;
+    margin-right: 3px;
+}
+.sbicogn{
+    background: url(../images/gn.png) no-repeat ;
+    display: inline-block;
+    height: 26px;
+    width: 28px;
+    position: relative;
+    top: -1px;
+}

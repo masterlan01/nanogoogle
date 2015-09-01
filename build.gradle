@@ -1,0 +1,52 @@
+apply plugin: 'java'
+apply plugin: 'war'
+apply plugin: 'eclipse-wtp'
+
+// JDK 8
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+dependencies {
+		compile "org.springframework:spring-context:4.2.0.RELEASE"
+		compile "org.springframework:spring-webmvc:4.2.0.RELEASE"
+		compile "org.aspectj:aspectjrt:1.6.10"
+		compile "commons-validator:commons-validator:1.4.0"
+		compile "org.hibernate:hibernate-validator:5.1.0.Final"
+		compile "org.jsoup:jsoup:1.8.3"
+		compile "org.apache.lucene:lucene-core:5.2.1"
+		compile "org.apache.lucene:lucene-analyzers-common:5.2.1"
+		compile "org.apache.lucene:lucene-queryparser:5.2.1"
+		compile "org.apache.lucene:lucene-expressions:5.2.1"
+		compile "org.apache.lucene:lucene-highlighter:5.2.1"
+		compile "com.fasterxml.jackson.core:jackson-databind:2.5.1"
+		compile "org.slf4j:slf4j-api:1.6.6"
+		compile "org.slf4j:jcl-over-slf4j:1.6.6"
+		compile "org.slf4j:slf4j-log4j12:1.6.6"
+		compile "log4j:log4j:1.2.15"
+		compile "javax.inject:javax.inject:1"
+		compile "javax.servlet:javax.servlet-api:3.1.0"
+		compile "javax.servlet.jsp:javax.servlet.jsp-api:2.3.1"
+		compile "javax.servlet:jstl:1.2"
+		compile "junit:junit:4.7"
+}
+
+buildscript {
+  repositories {
+    jcenter()
+  }
+}
+
+//For Eclipse IDE only
+eclipse {
+  wtp {
+    component {
+      //define context path, default to project folder name
+      contextPath = 'spring4'     
+    }
+  }
+}
